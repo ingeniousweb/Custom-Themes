@@ -1,0 +1,54 @@
+/*GLOBAL RILES*/
+.alpha{padding-left: 0 !important;}
+.omega{padding-right: 0 !important;}
+
+
+
+
+.main_menu{background: #E93947; padding:0;}
+.main_menu .navbar-brand{padding: 13px 0;}
+.main_menu li a{padding: 28px 15px !important; text-transform: capitalize; color:#ffffff !important;}
+.main_menu li a:first-child{padding-left: 0;}
+.main_menu li a:hover{border-bottom:3px solid #ffffff; }
+.main_menu .navbar-nav .active>.nav-link{border-bottom:3px solid #ffffff; }
+
+
+#wrapper-footer{background-color: #E93947; color: #ffffff; padding: 0px; padding-bottom: 0;}
+#wrapper-footer a{color: #ffffff;}
+#wrapper-footer h4{color: #ffffff;}
+#wrapper-footer .copyright{padding: 20px 0; text-align: center; border-top: 1px solid rgba(255,255,255,.1);}
+
+
+
+.free-visit-email{width: 100%; padding: 10px; margin-bottom: 10px;}
+.free-visit{background-color: #E93947; padding: 10px; font-family: Montserrat; font-size: 18px; display: block; width: 100%;
+color: #ffffff; border: none;}
+.half-white{color:#ffffff;}
+.trainers{z-index:5;}
+.fitness-contact-form{}
+.fitness-contact-form input, .fitness-contact-form textarea{width:100%; padding:10px;}
+.contact-submit{width: 35% !important; float:right;}
+.phone-num{float:right; margin-top:-3%;}
+.elementor-editor-active .phone-num{float:right; margin-top: 0;}
+
+.download_btn {background: white; float: right; color: #E93947; margin: 22px 0;}
+.download_btn:hover{background: #white; color: #E93947;}
+.download_btn:focus{background: #white; color: #E93947;}
+#curve-divider path{fill: #ffffff; stroke: #ffffff;}
+
+
+
+@media (max-width: 767px) { 
+.phone-num{width: 160px}
+.phone-num .elementor-icon-box-icon{float:left;}
+}
+
+@media (max-width: 991px){
+ .main_menu li a{padding: 15px 0px !important;}
+ .main_menu li a:hover{border:none; }
+}
+
+.navbar-toggler{color:#ffffff; margin:10px;}
+.navbar-toggler:focus{outline:none;}
+.elementor-column{min-height:0 !important;}
+
